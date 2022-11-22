@@ -192,118 +192,118 @@ function ganhador() {
     //ganha na horizontal
     if (jogo[0][0] == "X" && jogo[0][1] == "X" && jogo[0][2] == "X") {
         setTimeout(() => {
-            alert('X ganho');
+            alert('Xis ganho');
             soma("X");
             limpar();
-        }, 250)
+        }, 15)
     }
     if (jogo[0][0] == "O" && jogo[0][1] == "O" && jogo[0][2] == "O") {
         setTimeout(() => {
-            alert('O ganho');
+            alert('Bolinha ganho');
             soma("O");
             limpar();
-        }, 250)
+        }, 15)
     }
     if (jogo[1][0] == "X" && jogo[1][1] == "X" && jogo[1][2] == "X") {
         setTimeout(() => {
-            alert('X ganho');
+            alert('Xis ganho');
             soma("X");
             limpar();
-        }, 250)
+        }, 15)
     }
     if (jogo[1][0] == "O" && jogo[1][1] == "O" && jogo[1][2] == "O") {
         setTimeout(() => {
-            alert('O ganho');
+            alert('Bolinha ganho');
             soma("O");
             limpar();
-        }, 250)
+        }, 15)
 
     }
     if (jogo[2][0] == "X" && jogo[2][1] == "X" && jogo[2][2] == "X") {
         setTimeout(() => {
-            alert('X ganho');
+            alert('Xis ganho');
             soma("X");
             limpar();
-        }, 250)
+        }, 15)
     }
     if (jogo[2][0] == "O" && jogo[2][1] == "O" && jogo[2][2] == "O") {
         setTimeout(() => {
-            alert('O ganho');
+            alert('Bolinha ganho');
             soma("O");
             limpar();
-        }, 250)
+        }, 15)
     }
     //ganha na vertical
     if (jogo[0][0] == "X" && jogo[1][0] == "X" && jogo[2][0] == "X") {
         setTimeout(() => {
-            alert('X ganho');
+            alert('Xis ganho');
             soma("X");
             limpar();
-        }, 250)
+        }, 15)
     }
     if (jogo[0][0] == "O" && jogo[1][0] == "O" && jogo[2][0] == "O") {
         setTimeout(() => {
-            alert('O ganho');
+            alert('Bolinha ganho');
             soma("O");
             limpar();
-        }, 250)
+        }, 15)
     }
     if (jogo[0][1] == "X" && jogo[1][1] == "X" && jogo[2][1] == "X") {
         setTimeout(() => {
-            alert('X ganho');
+            alert('Xis ganho');
             soma("X");
             limpar();
-        }, 250)
+        }, 15)
     }
     if (jogo[0][1] == "O" && jogo[1][1] == "O" && jogo[2][1] == "O") {
         setTimeout(() => {
-            alert('O ganho');
+            alert('Bolinha ganho');
             soma("O");
             limpar();
-        }, 250)
+        }, 15)
 
     }
     if (jogo[0][2] == "X" && jogo[1][2] == "X" && jogo[2][2] == "X") {
         setTimeout(() => {
-            alert('X ganho');
+            alert('Xis ganho');
             soma("X");
             limpar();
-        }, 250)
+        }, 15)
     }
     if (jogo[0][2] == "O" && jogo[1][2] == "O" && jogo[2][2] == "O") {
         setTimeout(() => {
-            alert('O ganho');
+            alert('Bolinha ganho');
             soma("O");
             limpar();
-        }, 250)
+        }, 15)
     }
 
     //ganha na diagonal 1
     if (jogo[0][0] == "X" && jogo[1][1] == "X" && jogo[2][2] == "X") {
         setTimeout(() => {
-            alert('X ganho');
+            alert('Xis ganho');
             soma("X");
             limpar();
-        }, 250)
+        }, 15)
     }
     if (jogo[0][0] == "O" && jogo[1][1] == "O" && jogo[2][2] == "O") {
         setTimeout(() => {
-            alert('O ganho');
+            alert('Bolinha ganho');
             soma("O");
             limpar();
-        }, 250)
+        }, 15)
     }
     //ganha na diagonal 2
     if (jogo[0][2] == "O" && jogo[1][1] == "O" && jogo[2][0] == "O") {
         setTimeout(() => {
             soma('O');
             limpar();
-        }, 250)
+        }, 15)
     } if (jogo[0][2] == "X" && jogo[1][1] == "X" && jogo[2][0] == "X") {
         setTimeout(() => {
-            alert('X ganho');
+            alert('Xis ganho');
             soma("X");
             limpar();
-        }, 250)
+        }, 15)
     }
 }
