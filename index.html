@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Velha</title>
+	<meta charset="utf-8">
+	<link rel="StyleSheet" type="Text/css" href="estilo_img.css">
+</head>
+
+<body>
+
+	<div class="titulo">
+		<h1> JOGO DA VELHA - <b> JOGADOR: </b>
+			<img id="quemJoga" src="">
+		</h1>
+		<button class="limpar">Reniciar</button>
+		<div class="body_button">
+			<div class="pontos_area">
+				<img src="xis.png" class="img_p "><span class="pontosX pontos"></span>
+			</div>
+			<div class="pontos_area">
+				<img src="circulo.png" class="img_p"><span class="pontosO pontos"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="jogo_area">
+		<div class="contimgs">
+			<img class="imgxy" id="img11" src="velha.png" onclick="jogar(11)">
+			<img class="imgxy" id="img12" src="velha.png" onclick="jogar(12)">
+			<img class="imgxy" id="img13" src="velha.png" onclick="jogar(13)">
+		</div>
+
+		<div class="contimgs">
+			<img class="imgxy" id="img21" src="velha.png" onclick="jogar(21)">
+			<img class="imgxy" id="img22" src="velha.png" onclick="jogar(22)">
+			<img class="imgxy" id="img23" src="velha.png" onclick="jogar(23)">
+		</div>
+
+		<div class="contimgs">
+			<img class="imgxy" id="img31" src="velha.png" onclick="jogar(31)">
+			<img class="imgxy" id="img32" src="velha.png" onclick="jogar(32)">
+			<img class="imgxy" id="img33" src="velha.png" onclick="jogar(33)">
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
